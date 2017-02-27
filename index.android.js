@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
   temp: {
     fontFamily: 'HelveticaNeue-Bold',
     color: 'white',
-    fontSize: 33
+    fontSize: 32
   },
   body: {
     flex:5,

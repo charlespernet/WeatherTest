@@ -20,7 +20,7 @@ class App extends Component {
   getLocation() {
     navigator.geolocation.getCurrentPosition(
       (posData) => console.log(posData),
-      (erro) => alert(error),
+      (error) => alert(error),
       {timeout: 10000}
     )
   }
